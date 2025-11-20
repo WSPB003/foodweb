@@ -10,7 +10,7 @@ const PORT = 3000;
 // CORS Configuration
 const allowedOrigins = [
   "http://localhost:5173", // Local Vite dev server
-  "https://foodweb-main.vercel.app", // Replace <your-vercel-app-name> with your actual app name
+  "https://<your-frontend-on-render>.onrender.com", // IMPORTANT: Replace with your actual Render frontend URL
 ];
 
 const corsOptions = {
